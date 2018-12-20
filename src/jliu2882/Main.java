@@ -9,6 +9,12 @@ public class Main {
                 {14,8,13,7}
         };
         Position[][] successors = Successors.getSuccessorArray(coolArray);
-        
+
+        for(int i = 0; i < successors.length; i++){
+            for(int j = 0; j < successors[i].length;j++){
+                System.out.print(successors[i][j]);
+            }
+            System.out.println("");
+        }
     }
 }

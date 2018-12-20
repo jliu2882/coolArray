@@ -19,4 +19,8 @@ public class Position {
         }
         return null;
     }
+
+    public String toString(){
+        return "(" + this.r + "," + this.c + ")";
+    }
 }
